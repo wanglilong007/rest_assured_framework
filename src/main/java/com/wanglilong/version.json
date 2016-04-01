@@ -1,0 +1,19 @@
+{
+	"title": "Example Schema",
+	"type": "object",
+	"properties": {
+		"date": {
+			"type": "string"
+		},
+		"commit": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		},
+		"build": {
+			"type": "string"
+		}
+	},
+	"required": ["version", "build"]
+}
